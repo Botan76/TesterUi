@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5C6B31C02AFD9B0C001FC793 /* logio.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C6B31BF2AFD9B0C001FC793 /* logio.png */; };
 		5CF471F82AFC30A500E49062 /* TesterUiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF471F72AFC30A500E49062 /* TesterUiApp.swift */; };
 		5CF471FA2AFC30A500E49062 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF471F92AFC30A500E49062 /* ContentView.swift */; };
 		5CF471FC2AFC30A700E49062 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CF471FB2AFC30A700E49062 /* Assets.xcassets */; };
@@ -35,7 +34,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5C6B31BF2AFD9B0C001FC793 /* logio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logio.png; path = ../../../Desktop/logio.png; sourceTree = "<group>"; };
 		5CF471F42AFC30A500E49062 /* TesterUi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TesterUi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CF471F72AFC30A500E49062 /* TesterUiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TesterUiApp.swift; sourceTree = "<group>"; };
 		5CF471F92AFC30A500E49062 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,7 +99,6 @@
 				5CF471F92AFC30A500E49062 /* ContentView.swift */,
 				5CF471FB2AFC30A700E49062 /* Assets.xcassets */,
 				5CF471FD2AFC30A700E49062 /* TesterUi.entitlements */,
-				5C6B31BF2AFD9B0C001FC793 /* logio.png */,
 				5CF471FE2AFC30A700E49062 /* Preview Content */,
 			);
 			path = TesterUi;
@@ -237,7 +234,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CF472002AFC30A700E49062 /* Preview Assets.xcassets in Resources */,
-				5C6B31C02AFD9B0C001FC793 /* logio.png in Resources */,
 				5CF471FC2AFC30A700E49062 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,9 +417,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = TesterUi/TesterUi.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TesterUi/Preview Content\"";
+				DEVELOPMENT_TEAM = KCJY343223;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -442,6 +440,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = botan.TesterUi;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = botan.TesterUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -457,9 +456,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = TesterUi/TesterUi.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TesterUi/Preview Content\"";
+				DEVELOPMENT_TEAM = KCJY343223;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -478,6 +479,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = botan.TesterUi;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = botan.TesterUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
