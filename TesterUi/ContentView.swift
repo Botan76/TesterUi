@@ -22,7 +22,7 @@ struct ContentView: View {
                    
                     .background(Color.gray)
                     .frame(width: 380, height: 300)
-                    .opacity(0.6)
+                    .opacity(0.2)
                     .cornerRadius(18)
                     .blur(radius: 1)
                     .position(x: 205, y: 450)
